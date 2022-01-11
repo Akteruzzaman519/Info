@@ -12,6 +12,7 @@ import { ContackComponent } from './contack/contack.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BannerComponent } from './banner/banner.component';
 import { ProtfolioComponent } from './protfolio/protfolio.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProtfolioComponent } from './protfolio/protfolio.component';
     ProductComponent,
     ContackComponent,
     BannerComponent,
-    ProtfolioComponent
+    ProtfolioComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
